@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matlou Anthea Mathekga - Portfolio CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main App Wrapper -->
+    <div class="app-container">
+        
+        <!-- Left Sidebar (Desktop) / Top Banner (Mobile) -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <h1>Matlou Anthea Mathekga</h1>
+                <h2>IT &amp; Computer Sciences Graduate</h2>
+            </div>
+            
+            <!-- Weather API Section -->
+            <div id="weather-container" class="weather-widget">
+                <p id="weather-loading">Loading local weather...</p>
+            </div>
+        </aside>
+
+        <!-- Right Main Content Area -->
+        <main class="main-content">
+            <section class="card">
+                <h3>About Me</h3>
+                <p>Hello, I am currently a JavaScript student at Initium Venture Solutions. I am passionate about building interactive, user-friendly web applications and continuously expanding my knowledge in modern web development practices.</p>
+                <p>My goal is to combine creativity with technical expertise to create solutions that make a real impact.</p>
+            </section>
+
+            <section class="card">
+                <h3>Technical Skills &amp; Experience</h3>
+                <p>During my learning journey, I have gained hands-on experience in JavaScript fundamentals, DOM manipulation, and working with APIs to create dynamic web pages.</p>
+                <p><b>My ability to adapt</b> quickly and work both independently and collaboratively has strengthened my overall development skills.</p>
+                <p>I enjoy working with responsive web frameworks, debugging layouts, and writing clean, maintainable code.</p>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
